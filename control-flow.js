@@ -46,14 +46,14 @@ function stairs(height)
  * Error out with a nice little message if they don't put in a valid mood. *
  *                                                                         *
  * valid moods are                                                         *
- * Happy->        :)                                                       *
- * Sad->          :(                                                       *
- * Angry->       >:(                                                       *
- * Evil->        >:)                                                       *
- * Micheivious->  ;)                                                       *
- * Laughing->     :D                                                       *
- * Despair->      D:                                                       *
- * Crying->      :'(                                                       *
+ * Happy->            :)                                                   *
+ * Sad->              :(                                                   *
+ * Angry->           >:(                                                   *
+ * Evil->            >:)                                                   *
+ * Micheivious->      ;)                                                   *
+ * Laughing->         :D                                                   *
+ * Despair->          D:                                                   *
+ * Crying->          :'(                                                   *
  *                                                                         *
  * @method emote                                                           *
  * @param  {String} mood [Our mood]                                        *
