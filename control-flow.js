@@ -28,9 +28,9 @@ exports.odd = function odd(input)
  * Write a function that returns a staircase made out of the "*" Character *
  *                                                                         *
  * Example: stairs(3) should return                                        *
- * "|  *|                                                                  *
- *  | **|                                                                  *
- *  |***|"                                                                 *
+ * "  *                                                                    *
+ *   **                                                                    *
+ *  ***"                                                                   *
  * @method stairs                                                          *
  * @param  {Integer} height [How high our staircase will be]               *
  * @return {String}         [Our staircase]                                *
