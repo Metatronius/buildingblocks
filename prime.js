@@ -1,6 +1,6 @@
   /****************************************************************************
    * Write a function that takes a positive integer and returns all prime     *
-   * numbers from 1 to that integer fenced in with vertical lines.            *
+   * numbers from 1 to that integer in an array                               *
    * Make sure to validate our data in case our user is a neanderthal.        *
    * Example: fence(10) should return [1,2,3,5,7]                             *
    * Use the Sieve of Eratosthenes                                            *

@@ -1,2 +1,2 @@
-const chai = require('chai');
-const prime = require('../prime')
+const expect = require('chai').expect;
+const prime = require('../prime').prime
