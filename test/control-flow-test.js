@@ -38,9 +38,9 @@ describe('odd()\n\t', () =>
 
   it('throw error if input is not a positive integer', () =>
   {
-    expect(odd('this is a string')).to.throw(Error);
-    expect(odd(-5)).to.throw(Error);
-    expect(odd(5.5)).to.throw(Error);
+    expect(odd.bind('this is a string')).to.throw(Error);
+    expect(odd.bind(-5)).to.throw(Error);
+    expect(odd.bind(5.5)).to.throw(Error);
   });
 });
 
@@ -51,9 +51,9 @@ describe('stairs()\n\t', () =>
 
   it('throws an error if height is not a positive integer', () =>
   {
-    expect(stairs('this is a string')).to.throw(Error);
-    expect(stairs(-5)).to.throw(Error);
-    expect(stairs(5)).to.throw(Error);
+    expect(stairs.bind('this is a string')).to.throw(Error);
+    expect(stairs.bind(-5)).to.throw(Error);
+    expect(stairs.bind(5)).to.throw(Error);
   });
 
   it('returns a proper staircase', () =>
@@ -69,8 +69,8 @@ describe('emote()\n\t', () =>
 
   it('throws an error if mood is not valid', () =>
   {
-    expect(emote('cow')).to.throw(Error);
-    expect(emote(5)).to.throw(Error);
+    expect(emote.bind('cow')).to.throw(Error);
+    expect(emote.bind(5)).to.throw(Error);
   });
   it('returns the correct emoticons', () =>
   {

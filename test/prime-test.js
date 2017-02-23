@@ -5,9 +5,9 @@ describe('prime()\n\t', () =>
 {
   it('throws an error if limit is not a positive integer', () =>
   {
-    expect(prime('cow')).to.throw(Error);
-    expect(prime(-9)).to.throw(Error);
-    expect(prime(8.8)).to.throw(Error);
+    expect(prime.bind('cow')).to.throw(Error);
+    expect(prime.bind(-9)).to.throw(Error);
+    expect(prime.bind(8.8)).to.throw(Error);
   });
 
   it('returns an array', () =>
