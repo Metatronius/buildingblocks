@@ -3,10 +3,7 @@ const controlFlow = require('../control-flow');
 
 describe('ifHappy()\n\t', () =>
 {
-  before(() =>
-  {
-    const ifHappy = controlFlow.ifHappy
-  });
+  const ifHappy = controlFlow.ifHappy;
   it('returns true if happy', () =>
   {
     expect(ifHappy('happy')).to.equal(true);
@@ -27,10 +24,8 @@ describe('ifHappy()\n\t', () =>
 
 describe('odd()\n\t', () =>
 {
-  before(() =>
-  {
-    const odd = controlFlow.odd;
-  });
+  const odd = controlFlow.odd;
+
   it('returns an array', () =>
   {
     expect(odd(7)).to.be.a('array');
@@ -51,10 +46,9 @@ describe('odd()\n\t', () =>
 
 describe('stairs()\n\t', () =>
 {
-  before(() =>
-  {
-    const stairs = controlFlow.stairs;
-  });
+
+  const stairs = controlFlow.stairs;
+
   it('throws an error if height is not a positive integer', () =>
   {
     expect(stairs('this is a string')).to.be.an('error');
@@ -70,10 +64,9 @@ describe('stairs()\n\t', () =>
 
 describe('emote()\n\t', () =>
 {
-  before(() =>
-  {
-    const emote = controlFlow.emote
-  });
+
+  const emote = controlFlow.emote
+
   it('throws an error if mood is not valid', () =>
   {
     expect(emote('cow')).to.be.an('error');

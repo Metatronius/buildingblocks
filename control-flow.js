@@ -8,7 +8,8 @@
 
 exports.ifHappy = function ifHappy(input)
 {
-
+  let x = input.toLowerCase();
+  return 'happy' === x;
 }
 
 /***************************************************************************
