@@ -5,9 +5,9 @@ describe('fence()\n\t', () =>
 {
   it('throws an error if times is not a positive integer', () =>
   {
-    expect(fence('cow')).to.be.an('error');
-    expect(fence(-9)).to.be.an('error');
-    expect(fence(8.8)).to.be.an('error');
+    expect(fence('cow')).to.throw(Error);
+    expect(fence(-9)).to.throw(Error);
+    expect(fence(8.8)).to.throw(Error);
   });
 
   it('has no fenceposting issues', () =>
