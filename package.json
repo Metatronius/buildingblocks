@@ -2,7 +2,6 @@
   "name": "buildingblocks",
   "version": "1.0.0",
   "description": "Building block practice",
-  "main": "control-flow.js",
   "directories": {
     "test": "tests"
   },
