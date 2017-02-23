@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const controlFlow = require('../control-flow');
 
-describe('ifHappy()', () =>
+describe('ifHappy()\n\t', () =>
 {
   before(() =>
   {
@@ -25,7 +25,7 @@ describe('ifHappy()', () =>
   });
 });
 
-describe('odd()', () =>
+describe('odd()\n\t', () =>
 {
   before(() =>
   {
@@ -49,7 +49,7 @@ describe('odd()', () =>
   });
 });
 
-describe('stairs()', () =>
+describe('stairs()\n\t', () =>
 {
   before(() =>
   {
@@ -68,7 +68,7 @@ describe('stairs()', () =>
   });
 });
 
-describe('emote()', () =>
+describe('emote()\n\t', () =>
 {
   before(() =>
   {

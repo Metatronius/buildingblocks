@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const fence = require('../fencepost').fence;
 
-describe('fence()', () =>
+describe('fence()\n\t', () =>
 {
   it('throws an error if times is not a positive integer', () =>
   {

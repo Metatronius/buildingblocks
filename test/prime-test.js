@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const prime = require('../prime').prime;
 
-describe('prime()', () =>
+describe('prime()\n\t', () =>
 {
   it('throws an error if limit is not a positive integer', () =>
   {
